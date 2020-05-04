@@ -1,7 +1,8 @@
 # OP-Vent
 A Simple, Open-Source Ventilator using a Proportional Solenoid Valve
 
-Information gatrherd from https://op-vent.stanford.edu/ check it out!
+Information gathered from https://op-vent.stanford.edu/ check it out!
+Article about information at https://www.engadget.com/nvidia-open-source-ventilator-design-165732445.html
 
 - [Code](/code)
 - [PCB Design](/OPVentPCB_V2.2)
