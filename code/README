@@ -1,0 +1,55 @@
+Open Source Proportional Solenoid Valve Ventilator
+
+This directory contains code for an open-source proportional solenoid
+valve ventilator.
+
+Copyright 2020 Bill Dally
+ 
+Licensed under the Ventilator Open Source License (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+./LICENSE
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Files in this directory are:
+
+Makefile   Builds an executable using "make" and the AVR Crosspack Tools
+
+Main Program Logic:
+main.h	     Global variables and constant definitions
+main.c	     Code for initialization and real-time clock callback
+control.c    Control code for regulating flow, pressure, and volume
+control.h    Defines for control.c
+alarm.c	     Code relating to alarms
+alarm.h	     Defines for alarm.c
+ui.c	     The user interface - LCD and encoder, serial line, and test
+ui.h	     Defines for ui.c
+flow.c	     Code for dealing with flows
+flow.h	     Defines for flow.c
+
+Sensor Drivers:
+honeywell_flow.c  Code to interface to the Honeywell Zephyr I2C airflow sensor
+honeywell_flow.h  Defines for above
+siargo.c     Code to interface ot the Siargo FS4800 via its analog output
+siargo.h     Defines for above
+nxp_pressure.c	  Code to interface to NXP MP3V5010 or MP3V5004 pressure sensors
+nxp_pressure.h    Defines for above
+
+Peripheral Drivers:
+lcd.c	     Code to manage the LCD display
+lcd.h	     Defines for above
+pwm.c	     Code to generate a pulse-width modulated signal to drive the solenoid valve
+pwm.h	     Defines for above
+serial.c     Serial interface
+serial.h     Defines for above
+timer.c	     Code to generate the real-time clock interrupt and schedule routines on this clock
+timer.h	     Defines for above
+two_wire.c   Codes for the Two-Wire (I2C) interface
+two_wire.h   Defines for above
+
