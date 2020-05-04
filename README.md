@@ -12,4 +12,4 @@ Article about information at https://www.engadget.com/nvidia-open-source-ventila
 
 Video Introduction
 
-![OP-Vent Video Introduction](https://img.youtube.com/vi/vAR43ow1w0Q/0.jpg)
+[![OP-Vent Video Introduction](https://img.youtube.com/vi/vAR43ow1w0Q/0.jpg)](https://youtu.be/vAR43ow1w0Q)
