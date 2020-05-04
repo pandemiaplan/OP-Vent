@@ -4,7 +4,7 @@ A Simple, Open-Source Ventilator using a Proportional Solenoid Valve
 Information gatrherd from https://op-vent.stanford.edu/ check it out!
 
 - [Code](/code)
-- [PCB Design](/pcb-design)
+- [PCB Design](/OPVentPCB_V2.2)
 - [Documentation](https://op-vent.stanford.edu/docs/need.html)
 - [Open-Source Pneumatics](open-source-pneumatics)
 - [Off-the-Shelf Pneumatics](off-the-shelf-pneumatics)
