@@ -9,4 +9,4 @@ A Simple, Open-Source Ventilator using a Proportional Solenoid Valve
 
 Video Introduction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vAR43ow1w0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![OP-Vent Video Introduction](https://img.youtube.com/vi/vAR43ow1w0Q/0.jpg)]
